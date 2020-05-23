@@ -7,7 +7,20 @@ Uses data from https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Egypt
 
 <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="70"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/280px-Unofficial_JavaScript_logo_2.svg.png" width="70"> <img src="https://www.benmvp.com/static/bf5110fcdc155bf03a62c7863573ec65/9f2d5/ecmascript-logo.png" width="70">
 
+
 ## Example
+
+``` js
+const { getGovernorates } = require("subdivisions-of-egypt")
+
+    console.log(getGovernorates())  // List of all governorates
+    console.log(getGovernoratesWithSubregions())  // List of all governorates with subregions
+    console.log(getGovernorate(GovernorateID))  // Specific governorate data
+    console.log(getSubregions(GovernorateID))  // Get all the cities in governorate
+	
+```
+
+## Example In Angular App
 
 ``` ts
 import { getGovernorates, getGovernoratesWithSubregions, getGovernorate, getSubregions} from 'subdivisions-of-egypt';
