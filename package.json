@@ -1,0 +1,12 @@
+{
+  "name": "subdivisions-of-egypt",
+  "version": "1.0.0",
+  "description": "Egypt is divided into 27 governorates and each has a capital and at least one city.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/p-mohamed-elsawy/subdivisions-of-egypt.git",
+  "author": "mohamed elsawy",
+  "license": "MIT"
+}
